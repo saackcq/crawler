@@ -1,0 +1,265 @@
+
+body{
+  background-color: #756966;
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*
+
+$$\   $$\ $$$$$$$$\  $$$$$$\  $$$$$$$\  $$$$$$$$\ $$$$$$$\  
+$$ |  $$ |$$  _____|$$  __$$\ $$  __$$\ $$  _____|$$  __$$\ 
+$$ |  $$ |$$ |      $$ /  $$ |$$ |  $$ |$$ |      $$ |  $$ |
+$$$$$$$$ |$$$$$\    $$$$$$$$ |$$ |  $$ |$$$$$\    $$$$$$$  |
+$$  __$$ |$$  __|   $$  __$$ |$$ |  $$ |$$  __|   $$  __$$< 
+$$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |      $$ |  $$ |
+$$ |  $$ |$$$$$$$$\ $$ |  $$ |$$$$$$$  |$$$$$$$$\ $$ |  $$ |
+\__|  \__|\________|\__|  \__|\_______/ \________|\__|  \__|
+                                                            
+                                                            
+                                                             */
+
+.head-main{
+    text-align: center;    
+}
+
+.nav-main{
+    background-color: #521404;
+}
+
+.ul-main{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.li-main{
+    margin: 10px;
+}
+
+.menu-main a{
+    display: flex;
+}
+
+
+/*
+  ___    __    ____  ____  __  __  ___  ____  __   
+ / __)  /__\  (  _ \(  _ \(  )(  )/ __)( ___)(  )  
+( (__  /(__)\  )   / )   / )(__)( \__ \ )__)  )(__ 
+ \___)(__)(__)(_)\_)(_)\_)(______)(___/(____)(____)
+
+*/
+
+
+.carrusel {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  max-width: 1000px;
+  
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  border: 3px solid white;
+
+  animation: mover 6s infinite;
+  
+}
+
+.son{
+  border: 3px solid rgb(177, 22, 22);
+  width: 100%;
+}
+
+.slides img {
+  width: 100%;
+  display: block;
+}
+
+
+@keyframes mover {
+  0%{ transform: translateX(0%);}
+  20%{ transform: translateX(0%);}
+  40%{transform: translateX(-33.3%);}
+  60%{transform: translateX(-33.3%);}
+  80%{transform: translateX(-66.6%);}
+  100%{transform: translateX(-66.6%);}
+}
+
+
+
+
+/* 
+
+$$\      $$\  $$$$$$\  $$$$$$\ $$\   $$\ 
+$$$\    $$$ |$$  __$$\ \_$$  _|$$$\  $$ |
+$$$$\  $$$$ |$$ /  $$ |  $$ |  $$$$\ $$ |
+$$\$$\$$ $$ |$$$$$$$$ |  $$ |  $$ $$\$$ |
+$$ \$$$  $$ |$$  __$$ |  $$ |  $$ \$$$$ |
+$$ |\$  /$$ |$$ |  $$ |  $$ |  $$ |\$$$ |
+$$ | \_/ $$ |$$ |  $$ |$$$$$$\ $$ | \$$ |
+\__|     \__|\__|  \__|\______|\__|  \__|
+                                         
+                                         */
+
+.wrap{
+    border: 3px solid goldenrod;
+    max-width: 1000px;
+    margin: auto;
+    width: 90%;
+}
+
+/* 
+  ____  ____      _    _   _ ____  ____  
+ | __ )|  _ \    / \  | \ | |  _ \/ ___| 
+ |  _ \| |_) |  / _ \ |  \| | | | \___ \ 
+ | |_) |  _ <  / ___ \| |\  | |_| |___) |
+ |____/|_| \_\/_/   \_\_| \_|____/|____/ 
+                                         
+*/
+
+
+.brands{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.son-bran:hover {
+  transform: scale(1.2); /* hace que sobresalga */
+  z-index: 10; /* lo coloca encima de los demás */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+
+
+.son-bran{
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+.brands img{
+  width: 100%;
+  
+}
+
+
+
+
+.card{
+  width: 300px;
+  padding: 5px;
+  border: 1px solid white;
+  margin:  10px auto;
+  text-align: center;
+  
+  
+
+}
+
+
+
+
+/*
+  _____ ______ _   _ 
+/  __ \| ___ \ | | |
+| /  \/| |_/ / | | |
+| |    |  __/| | | |
+| \__/\| |   | |_| |
+ \____/\_|    \___/ 
+                    
+*/
+
+.main-cpu img{
+ width: 100%;
+ height: 250px;
+}
+
+.main-cpu h1{
+  text-align: center;
+  
+}
+
+
+.main-cpu h3{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main-cpu p{
+ 
+    text-align: justify;
+
+}
+
+.features-cpu{
+  padding: 10px;
+}
+
+/*
+
+   /$$$$$$$$ /$$$$$$   /$$$$$$  /$$$$$$$$ /$$$$$$$$ /$$$$$$$ 
+| $$_____//$$__  $$ /$$__  $$|__  $$__/| $$_____/| $$__  $$
+| $$     | $$  \ $$| $$  \ $$   | $$   | $$      | $$  \ $$
+| $$$$$  | $$  | $$| $$  | $$   | $$   | $$$$$   | $$$$$$$/
+| $$__/  | $$  | $$| $$  | $$   | $$   | $$__/   | $$__  $$
+| $$     | $$  | $$| $$  | $$   | $$   | $$      | $$  \ $$
+| $$     |  $$$$$$/|  $$$$$$/   | $$   | $$$$$$$$| $$  | $$
+|__/      \______/  \______/    |__/   |________/|__/  |__/
+
+*/
+
+footer{
+  background-color: #521404;
+  text-align: center;
+}
+
+
+
+/*
+
+   *         (     (                                  (    (         (     
+ (  `        )\ )  )\ )    (         (                )\ ) )\ )      )\ )  
+ )\))(   (  (()/( (()/(    )\      ( )\      (   (   (()/((()/( (   (()/(  
+((_)()\  )\  /(_)) /(_))((((_)(    )((_)     )\  )\   /(_))/(_)))\   /(_)) 
+(_()((_)((_)(_))_ (_))   )\ _ )\  ((_)_   _ ((_)((_) (_)) (_)) ((_) (_))   
+|  \/  || __||   \|_ _|  (_)_\(_)  / _ \ | | | || __|| _ \|_ _|| __|/ __|  
+| |\/| || _| | |) || |    / _ \   | (_) || |_| || _| |   / | | | _| \__ \  
+|_|  |_||___||___/|___|  /_/ \_\   \__\_\ \___/ |___||_|_\|___||___||___/  
+                                                                           
+*/
+
+
+@media (min-width: 992px) {
+
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.card{
+      margin: 10px;
+  
+  
+  
+
+}
+
+
+
+}
