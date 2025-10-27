@@ -135,14 +135,6 @@ $$ | \_/ $$ |$$ |  $$ |$$$$$$\ $$ | \$$ |
   justify-content: space-evenly;
 }
 
-.son-bran:hover {
-  transform: scale(1.2); /* hace que sobresalga */
-  z-index: 10; /* lo coloca encima de los demás */
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-}
-
-
-
 
 .son-bran{
   width: 200px;
@@ -156,18 +148,30 @@ $$ | \_/ $$ |$$ |  $$ |$$$$$$\ $$ | \$$ |
 }
 
 
-
-
 .card{
   width: 300px;
   padding: 5px;
   border: 1px solid white;
   margin:  10px auto;
   text-align: center;
-  
-  
 
 }
+
+
+
+
+
+
+.son-bran:hover {
+  transform: scale(1.2); /* hace que sobresalga */
+  z-index: 10; /* lo coloca encima de los demás */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+
+
+
 
 
 
